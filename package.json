@@ -1,7 +1,7 @@
 {
   "name": "rest-rant",
   "version": "1.0.0",
-  "description": "",
+  "description": "REST-Rant is an app where users can review restaurants. |Method | Path | Purpose| |------ |----- | -------| |GET    |/     |Home page| |GET    |/places|Places index page| |POST   |/places|Creates new place| |GET    |/places/new|Form page for creating a new place| |GET    |/places/:id|Details about a particular place| |PUT    |/places/:id|Update a particular place| |GET    |/places/:id/edit|Form page for editing an existing place| |DELETE |/places/:id|Delete a particular place| |POST   |/places/:id/rant|Create a rant (comment) about a particular place| |DELETE |/places/:id/rant/:rantId|Delete a rant (comment) about a particular place| |GET    |*      |404 page (matches any route not defined above)|# rest-rant",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +14,16 @@
     "express": "^4.18.1",
     "express-react-views": "^0.11.0",
     "react": "^18.2.0"
-  }
+  },
+  "devDependencies": {
+    "npm-start-command": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnathanwastaken/rest-rant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnathanwastaken/rest-rant/issues"
+  },
+  "homepage": "https://github.com/johnathanwastaken/rest-rant#readme"
 }
