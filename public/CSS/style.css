@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    color: cornflowerblue;
+    color: #5e503f;
   }
   
   h2 {
@@ -35,7 +35,7 @@ img {
   }
 
 .btn-primary { 
-    background-color: #4CAF50;
+    background-color: #0a0908;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -46,4 +46,41 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #49111c ;
+}
+
+nav {
+  background-color: #0a0908;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  display: inline-block;
+}
+
+nav li {
+  display: inline;
+  margin-right: 25px;
+}
+
+nav a {
+  color:#f2f4f3;
+  font-size: 1.5em;
+}
+
+nav a:hover {
+  color: #49111c;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #0a0908 ;
+  padding: 10px;
+  text-align: center;
 }
