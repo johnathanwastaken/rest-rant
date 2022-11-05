@@ -3,7 +3,7 @@ h1 {
     color: #5e503f;
   }
   
-  h2 {
+  h2, h4, h5, p {
     text-align: center;
 }
 
