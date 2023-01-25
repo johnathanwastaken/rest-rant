@@ -1,5 +1,6 @@
 // Modules and Globals
 require('dotenv').config()
+const { application } = require('express')
 const express = require('express')
 const app = express()
 const methodOverride = require('method-override')
